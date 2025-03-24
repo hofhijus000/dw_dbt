@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: samssubs_source_web_traffic
+    database: justinhofhiens
+    schema: samssubs_source
+    tables:
+      - name: web_traffic_data
+
+  - name: samssubs_data_source
+    database: justinhofhiens
+    schema: samssubs_source_sams_subs
+    tables:
+      - name: customer
+      - name: employee
+      - name: order
+      - name: orderdetails
+      - name: product
+      - name: sandwich
+      - name: store
